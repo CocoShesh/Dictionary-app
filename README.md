@@ -1,4 +1,7 @@
-Dictionary-app
+
+<h1>Dictionary-app </h1> 
+
+
 Dictionary is a project where I practice working with APIs. Users can explore words, customize fonts and themes to their liking, and listen to word pronunciations, making it a comprehensive tool for language enthusiasts and learners alike.
 
 ![image](https://github.com/CocoShesh/Dictionary-app/assets/110368170/0e2d38fd-08bf-4f0a-9b97-f5f5cee9ab19)
