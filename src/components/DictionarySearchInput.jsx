@@ -42,7 +42,7 @@ const DictionarySearchInput = () => {
   };
 
   useEffect(() => {
-    handleBackgroundColor(); // Call handleBackgroundColor whenever the toggle state changes
+    handleBackgroundColor(); 
   }, [toggle]);
 
   return (
