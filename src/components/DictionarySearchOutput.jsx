@@ -43,7 +43,7 @@ const DictionarySearchOutput = ({ data, loading }) => {
           toggle ? "text-[#2d2d2d]" : "text-white"
         }`}
       >
-        <section className="flex justify-between items-center px-1 py-4">
+        <section className="flex justify-between  max-xs:flex-wrap items-center px-1 py-4">
           <div>
             <p className="  capitalize  text-6xl  font-bold">{list?.word}</p>
             <p className="text-[#a445ed]  text-3xl mt-2">
