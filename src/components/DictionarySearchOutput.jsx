@@ -39,12 +39,12 @@ const DictionarySearchOutput = ({ data, loading }) => {
   return (
     <>
       <section
-        className={` pb-10 px-2  text-[14px] mt-10 ${font} ${
+        className={` pb-10 px-2  w-full   text-[14px] mt-10 ${font} ${
           toggle ? "text-[#2d2d2d]" : "text-white"
         }`}
       >
-        <section className="flex justify-between  max-xs:flex-wrap items-center px-1 py-4">
-          <div>
+        <section className="flex justify-between  max-xs:flex-wrap items-center px-1 py-4 max-lg:w-full  ">
+          <div className="w-fit ">
             <p className="  capitalize  text-6xl  font-bold">{list?.word}</p>
             <p className="text-[#a445ed]  text-3xl mt-2">
               {list?.phonetics[0]?.text}

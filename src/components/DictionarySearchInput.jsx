@@ -42,15 +42,17 @@ const DictionarySearchInput = () => {
   };
 
   useEffect(() => {
-    handleBackgroundColor(); 
+    handleBackgroundColor();
   }, [toggle]);
 
   return (
     <>
       {loading && <section className="loader"></section>}
-      <section className={`flex items-center w-full  justify-center ${font} `}>
-        <section className="w-[700px] h-full mt-14 px-5 py-3  text-white ">
-          <section className="flex items-center justify-between mb-5 max-sm:px-3 ">
+      <section
+        className={`flex items-center w-full    justify-center ${font} `}
+      >
+        <section className="lg:w-[700px] h-full mt-14 px-5 py-3 max-lg:w-full  text-white ">
+          <section className="flex items-center justify-between mb-5 max-sm:px-3  ">
             <img src="/logo.svg" alt="" className="h-10" />
             <section className="text-lg flex items-center justify-center divide-x gap-2">
               <DropdownFont />
