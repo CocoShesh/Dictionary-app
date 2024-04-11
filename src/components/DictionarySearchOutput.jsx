@@ -153,7 +153,7 @@ const DictionarySearchOutput = ({ data, loading }) => {
           </section>
         ) : null}
         <div className="w-full border border-[#3a3a3a8a] mt-5"></div>
-        <div className="flex gap-3 mt-2">
+        <div className="flex max-sm:flex-wrap gap-3 mt-2">
           Source:{" "}
           <a href={list?.sourceUrls} target="_blank" className="underline">
             {list?.sourceUrls}
