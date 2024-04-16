@@ -1,6 +1,6 @@
 import axios from "axios";
 const baseURL = import.meta.env.VITE_APP_BASE_URL;
-const AuidoURL = import.meta.env.VITE_APP_BASE_URL_VOICE;
+const AudioURL = import.meta.env.VITE_APP_BASE_URL_VOICE;
 
 export const getPrompt = async prompt => {
   try {
@@ -17,7 +17,7 @@ export const getPrompt = async prompt => {
 
 export const getAudio = async prompt => {
   try {
-    const response = await fetch(`${AuidoURL}/${prompt}-us.mp3`);
+    const response = await fetch(`${AudioURL}/${prompt}-us.mp3`);
 
     const blob = await response.blob();
     return blob;
