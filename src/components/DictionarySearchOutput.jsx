@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import { useToggle } from "./context/ToggleThemeContext";
 import { useFont } from "./context/FontContext";
