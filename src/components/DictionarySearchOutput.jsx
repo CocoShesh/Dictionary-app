@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { useToggle } from "./context/ToggleThemeContext";
 import { useFont } from "./context/FontContext";
-const DictionarySearchOutput = ({ data, loading }) => {
+const DictionarySearchOutput = ({ data }) => {
   const [audioSrc, setAudioSrc] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
